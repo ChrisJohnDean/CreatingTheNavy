@@ -1,6 +1,6 @@
 DROP TABLE fleets;
 DROP TABLE ships;
-DROP TABLE sailors;
+
 DROP TABLE duties;
 
 CREATE TABLE fleets (
