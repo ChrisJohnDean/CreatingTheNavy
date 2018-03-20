@@ -1,6 +1,6 @@
 DROP TABLE fleets;
 DROP TABLE ships;
-
+DROP TABLE sailors;
 DROP TABLE duties;
 
 CREATE TABLE fleets (
@@ -17,7 +17,7 @@ CREATE TABLE ships (
 CREATE TABLE sailors (
     id INTEGER PRIMARY KEY,
     sailor_name VARCHAR(50),
-    ship_name VARCHAR(50);
+    ship_name VARCHAR(50),
     date_of_birth VARCHAR(50)
 );
 
